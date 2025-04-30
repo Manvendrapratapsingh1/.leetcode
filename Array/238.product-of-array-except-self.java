@@ -7,8 +7,6 @@ package Array;
 
 // @lc code=start
 
-import java.lang.reflect.Array;
-
 class Solution {
     public int[] productExceptSelf(int[] nums) {
         int[] result=new int[nums.length];
