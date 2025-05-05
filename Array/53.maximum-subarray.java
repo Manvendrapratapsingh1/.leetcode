@@ -13,7 +13,7 @@ class Solution {
        for(int i=0;i<nums.length;i++){
          if (cursum<0) {
             cursum=0;
-         }
+         } 
          cursum=cursum+nums[i];
          maxSum=Math.max(maxSum, cursum);
        } 
