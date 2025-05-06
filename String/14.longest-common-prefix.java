@@ -17,7 +17,6 @@ class Solution {
                 if (pre.isEmpty()) return "";
             }
         }
-
         return pre;
     }
 }
